@@ -9,8 +9,101 @@
   <title>SCSS Project</title>
 </head>
 <body>
+
   <header class="header">
-    <h1>Welcome to my SCSS Project</h1>
+    <nav>
+      <section id="left-nav">
+        <img src="imgs/logo.png" alt="logo" height="50px" width="50px">
+      </section>
+      <section id="right-nav">
+        <a href="">Home</a>
+        <a href="">Categories</a>
+        <a href="">About Us</a>
+      </section>
+    </nav>
   </header>
+
+  <main>
+    <section id="hero">
+      <h1>Every Sip Deserves a Special Cup</h1>
+      <h3>Discover the unique touch of artisanal craftsmanship in each of our cups.</h3>
+      <button id="btn" aria-labelledby="btn">Shop Now</button>
+    </section>
+
+    <br/><br/>
+
+    <section id="showcases">
+      <div id="showcase1">
+        <img src="imgs/product1.jpg" alt="white cup with small red hearts" height="200px">
+        <h3>Hearts Cup</h3>
+        <div class="description">
+          <h5>Description:</h5>
+          <ul>
+            <li>Color: White and Red</li>
+            <li>Material: Polymer Clay</li>
+            <li>Microwave Safe: Yes</li>
+            <li>Dishwasher Safe: Yes</li>
+          </ul>
+        </div>
+        
+      </div>
+
+      <div id="showcase12">
+        <img src="imgs/product2.jpg" alt="white tea brew and cup with small red hearts" height="200px">
+        <h3>Hearts Tea Set</h3>
+        <div class="description">
+          <h5>Description:</h5>
+          <ul>
+            <li>Color: White and Red</li>
+            <li>Material: Polymer Clay</li>
+            <li>Microwave Safe: No</li>
+            <li>Dishwasher Safe: Yes</li>
+          </ul>
+        </div>
+        
+      </div>
+    </section>
+
+    <br/><br/>
+    
+    <section id="subscription">
+      <h3>Subscribe with us to get all the great news and offers:</h3>
+       <form>
+        <label>Enter E-mail:</label><br>
+        <input type="text" placeholder="example@example.com">
+      </form>
+    </section>
+   
+  </main>
+
+  <footer>
+    <section id="important-pages">
+      <h4>important pages:</h4>
+      <ul>
+        <li><a href="">page 1</a></li>
+        <li><a href="">page 2</a></li>
+      </ul>
+    </section>
+
+    <section id="contact-info">
+      <h4>Contact information:</h4>
+      <ul>
+        <li><a href="mailto:alhanoufkmlz@gmail.com">E-mail</a>.</li>
+        <li><a href="tel:+9665-575-07284">Call Us</a></li>
+      </ul>
+      
+    </section>
+
+    <section id="social-media">
+      <h4>Social Media:</h4>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/alhanouf-allazzam-7b40b9238/"><img src="imgs/linkedin.png" alt="linkedin logo" height="20px" width="20px">LinkedIn</a></li>
+        <li><a href="https://github.com/AlhanoufKMLz"><img src="imgs/github.png" alt="github logo" height="20px" width="20px">Github</a></li>
+        <li><a href="https://x.com/AlhanoufLz?s=20"><img src="imgs/twitter.png" alt="twitter logo" height="20px" width="20px">Twitter</a></li>
+      </ul>
+    </section>
+    
+  </footer>
+
 </body>
 </html>
