@@ -46,6 +46,8 @@ header {
   color: rgb(158, 11, 11);
   font-size: xx-large;
   padding: 30px;
+  align-items: center;
+  justify-content: center;
 }
 #hero button{
   background-color: rgb(158, 11, 11);
@@ -130,6 +132,12 @@ li{
 h4{
   color: rgb(81, 81, 81);
   padding: 7px;
+}
+
+@media only screen and (max-width: 1000px) and (min-width:599px){
+  #showcases{
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media only screen and (max-width: 600px) {
