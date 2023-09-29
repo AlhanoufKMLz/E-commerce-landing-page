@@ -1,5 +1,4 @@
 <!-- index.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="dist/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
   <title>My Cup Shop</title>
 </head>
 
@@ -37,7 +39,7 @@
       <div class="showcase" tabindex="3">
         <img src="imgs/product1.jpg" alt="white cup with small red hearts">
         <h3>Hearts Cup</h3>
-        <section class="description">
+        <div class="description">
           <h4>Description:</h4>
           <ul role="tree">
             <li role="treeitem" aria-expanded="true">Color: White and Red</li>
@@ -45,24 +47,13 @@
             <li role="treeitem" aria-expanded="true">Microwave Safe: Yes</li>
             <li role="treeitem" aria-expanded="true">Dishwasher Safe: Yes</li>
           </ul>
-        </section>
-        <section class="reviews">
-          <h4>Reviews:</h4>
-          <div class="review">
-            <h5>Reviewer#1 name</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis urna sed enim malesuada ultricies. Proin sed rhoncus nisi.</p>
-          </div>
-          <div class="review">
-            <h5>Reviewer#2 name</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis urna sed enim malesuada ultricies. Proin sed rhoncus nisi.</p>
-          </div>
-        </section>
+        </div>
       </div>
 
       <div class="showcase" tabindex="4">
         <img src="imgs/product2.jpg" alt="white tea brew and cup with small red hearts">
         <h3>Hearts Tea Set</h3>
-        <section class="description">
+        <div class="description">
           <h4>Description:</h4>
           <ul role="tree">
             <li role="treeitem" aria-expanded="true">Color: White and Red</li>
@@ -70,24 +61,13 @@
             <li role="treeitem" aria-expanded="true">Microwave Safe: No</li>
             <li role="treeitem" aria-expanded="true">Dishwasher Safe: Yes</li>
           </ul>
-        </section>
-        <section class="reviews">
-          <h4>Reviews:</h4>
-          <div class="review">
-            <h5>Reviewer#1 name</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis urna sed enim malesuada ultricies. Proin sed rhoncus nisi.</p>
-          </div>
-          <div class="review">
-            <h5>Reviewer#2 name</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis urna sed enim malesuada ultricies. Proin sed rhoncus nisi.</p>
-          </div>
-        </section>
+        </div>
       </div>
 
       <div class="showcase" tabindex="3">
         <img src="imgs/product1.jpg" alt="white cup with small red hearts">
         <h3>Hearts Cup</h3>
-        <section class="description">
+        <div class="description">
           <h4>Description:</h4>
           <ul role="tree">
             <li role="treeitem" aria-expanded="true">Color: White and Red</li>
@@ -95,24 +75,13 @@
             <li role="treeitem" aria-expanded="true">Microwave Safe: Yes</li>
             <li role="treeitem" aria-expanded="true">Dishwasher Safe: Yes</li>
           </ul>
-        </section>
-        <section class="reviews">
-          <h4>Reviews:</h4>
-          <div class="review">
-            <h5>Reviewer#1 name</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis urna sed enim malesuada ultricies. Proin sed rhoncus nisi.</p>
-          </div>
-          <div class="review">
-            <h5>Reviewer#2 name</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis urna sed enim malesuada ultricies. Proin sed rhoncus nisi.</p>
-          </div>
-        </section>
+        </div>
       </div>
 
       <div class="showcase" tabindex="4">
         <img src="imgs/product2.jpg" alt="white tea brew and cup with small red hearts">
         <h3>Hearts Tea Set</h3>
-        <section class="description">
+        <div class="description">
           <h4>Description:</h4>
           <ul role="tree">
             <li role="treeitem" aria-expanded="true">Color: White and Red</li>
@@ -120,25 +89,37 @@
             <li role="treeitem" aria-expanded="true">Microwave Safe: No</li>
             <li role="treeitem" aria-expanded="true">Dishwasher Safe: Yes</li>
           </ul>
-        </section>
-        <section class="reviews">
-          <h4>Reviews:</h4>
-          <div class="review">
-            <h5>Reviewer#1 name</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis urna sed enim malesuada ultricies. Proin sed rhoncus nisi.</p>
-          </div>
-          <div class="review">
-            <h5>Reviewer#2 name</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis urna sed enim malesuada ultricies. Proin sed rhoncus nisi.</p>
-          </div>
-        </section>
+        </div>
       </div>
+    </section>
+
+    <section id="reviews">
+      <h4>Reviews:</h4>
+      <div class="reviews">
+        <div class="review">
+          <h5>Reviewer#1 name</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis urna sed enim malesuada ultricies. Proin sed rhoncus nisi.</p>
+        </div>
+        <div class="review">
+          <h5>Reviewer#2 name</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis urna sed enim malesuada ultricies. Proin sed rhoncus nisi.</p>
+        </div>
+        <div class="review">
+          <h5>Reviewer#3 name</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis urna sed enim malesuada ultricies. Proin sed rhoncus nisi.</p>
+        </div>
+        <div class="review">
+          <h5>Reviewer#4 name</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis urna sed enim malesuada ultricies. Proin sed rhoncus nisi.</p>
+        </div>
+      </div>
+      
     </section>
     
     <section id="subscription" tabindex="5">
-      <h3>Subscribe with us to get all the great news and offers:</h3>
+      <h2>Subscribe with us to get all the great news and offers:</h2>
       <form>
-        <label>Enter E-mail:</label>
+        <label>Enter E-mail:  </label>
         <input type="text" placeholder="example@example.com">
       </form>
     </section>
@@ -146,7 +127,7 @@
 
   <footer tabindex="6">
     <section id="important-pages">
-      <h4>Important pages:</h4>
+      <h3>Important pages:</h3>
       <ul role="tree">
         <li role="treeitem" aria-expanded="true"><a href="#">page 1</a></li>
         <li role="treeitem" aria-expanded="true"><a href="#">page 2</a></li>
@@ -154,7 +135,7 @@
     </section>
 
     <section id="contact-info">
-      <h4>Contact information:</h4>
+      <h3>Contact information:</h3>
       <ul role="tree">
         <li role="treeitem" aria-expanded="true"><a href="mailto:alhanoufkmlz@gmail.com">E-mail</a>.</li>
         <li role="treeitem" aria-expanded="true"><a href="tel:+9665-575-07284">Call Us</a></li>
@@ -163,7 +144,7 @@
     </section>
 
     <section id="social-media">
-      <h4>Social Media:</h4>
+      <h3>Social Media:</h3>
       <ul role="tree">
         <li role="treeitem" aria-expanded="true"><a href="https://www.linkedin.com/in/alhanouf-allazzam-7b40b9238/"><i class="fa fa-linkedin" style="font-size:24px"></i>LinkedIn</a></li>
         <li role="treeitem" aria-expanded="true"><a href="https://github.com/AlhanoufKMLz"><i class="fa fa-github" style="font-size:24px"></i>Github</a></li>
